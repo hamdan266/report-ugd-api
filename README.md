@@ -4,7 +4,7 @@ Sistem pelaporan darurat real-time yang dibangun dengan React.js untuk frontend 
 
 ## 📸 Tangkapan Layar (Screenshot)
 
-![Admin Dashboard](admin-dashboard.png)
+![Admin Dashboard](Tangkapan%20Layar/admin-dashboard.png)
 
 ---
 
