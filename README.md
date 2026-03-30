@@ -2,6 +2,10 @@
 
 Sistem pelaporan darurat real-time yang dibangun dengan React.js untuk frontend dan Laravel untuk backend API. Sistem ini memungkinkan pengguna untuk melaporkan kejadian darurat dengan deteksi lokasi secara akurat, dan admin dapat mengelola serta memantau status laporan secara real-time.
 
+## 📸 Tangkapan Layar (Screenshot)
+
+![Admin Dashboard](admin-dashboard.png)
+
 ---
 
 ## 🌟 Fitur Utama
