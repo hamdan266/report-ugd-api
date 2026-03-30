@@ -149,7 +149,7 @@ Proyek ini menggunakan arsitektur Monorepo sederhana yang memisahkan antara fron
 
 ## 🤝 Kontribusi
 
-Kami sangat mengapresiasi kontribusi dalam bentuk apa pun! Jika Anda menemukan bug, memiliki saran fitur baru, atau ingin memperbaiki dokumentasi, silakan lakukan langkah berikut:
+Saya sangat mengapresiasi kontribusi dalam bentuk apa pun! Jika Anda menemukan bug, memiliki saran fitur baru, atau ingin memperbaiki dokumentasi, silakan lakukan langkah berikut:
 
 1. _Fork_ repositori ini.
 2. Buat _branch_ fitur Anda (`git checkout -b feature/FiturKeren`).
