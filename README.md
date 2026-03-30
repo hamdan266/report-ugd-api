@@ -8,6 +8,10 @@ Halaman Dashboard Admin
 
 ![Admin Dashboard](Tangkapan%20Layar/admin-dashboard.png)
 
+Halaman Dashboard User
+
+![User Dashboard](Tangkapan%20Layar/user-dashboard.png)
+
 ---
 
 ## 🌟 Fitur Utama
