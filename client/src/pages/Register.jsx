@@ -63,6 +63,21 @@ export default function Register() {
                     <div>
                         <div className="relative">
                             <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                <User className="h-5 w-5 text-red-200" />
+                            </div>
+                            <input
+                                type="text"
+                                value={credentials.username}
+                                onChange={e => setCredentials({ ...credentials, username: e.target.value })}
+                                className="block w-full pl-10 pr-3 py-3 border border-white/20 rounded-xl leading-5 bg-black/20 text-white placeholder-red-200 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-transparent transition duration-200"
+                                placeholder="Username (Optional)"
+                            />
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className="relative">
+                            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                                 <Mail className="h-5 w-5 text-red-200" />
                             </div>
                             <input

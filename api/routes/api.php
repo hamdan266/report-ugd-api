@@ -15,5 +15,10 @@ Route::middleware('auth:sanctum')->group(function () {
     
     Route::post('/logout', [AuthController::class, 'logout']);
     
+    // Profile
+    Route::post('/profile', [App\Http\Controllers\UserController::class, 'updateProfile']);
+    
+    // Admin CRUD routes & Reports
+    Route::apiResource('users', \App\Http\Controllers\UserController::class);
     Route::apiResource('reports', ReportController::class);
 });
