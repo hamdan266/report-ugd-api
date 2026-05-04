@@ -27,6 +27,6 @@ RUN mkdir -p storage/framework/{sessions,views,cache} \
     && mkdir -p bootstrap/cache \
     && chmod -R 775 storage bootstrap/cache
 
-EXPOSE ${PORT:-8080}
+EXPOSE 8080
 
-CMD php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=${PORT:-8080}
+CMD sh -c "php artisan migrate --force 2>/dev/null; php artisan serve --host=0.0.0.0 --port=\${PORT:-8080}"
