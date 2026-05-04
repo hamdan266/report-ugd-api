@@ -12,7 +12,7 @@ const echo = new Echo({
     forceTLS: false,
     disableStats: true,
     enabledTransports: ['ws', 'wss'],
-    authEndpoint: 'http://localhost:8000/api/broadcasting/auth',
+    authEndpoint: `${import.meta.env.VITE_API_URL || 'http://localhost:8000/api'}/broadcasting/auth`,
     auth: {
         headers: {
             Authorization: `Bearer ${localStorage.getItem('token')}`
